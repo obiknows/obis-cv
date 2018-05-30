@@ -3,6 +3,8 @@ Obi's CV 📄
 
 the repo for my ReLaXed Resumé. Call it a CV.
 
+See it [here](obis-cv.pdf)
+
 ### Tools Used
 
 - [ReLaXed](https://github.com/RelaxedJS/ReLaXed)
