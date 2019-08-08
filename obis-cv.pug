@@ -5,11 +5,25 @@ include obis-cv-mixins.pug
   #title
     h1 Samuel Obinna Nnodim
     //- .subtitle King in the North
-    .subtitle Obi Knows (Obinna)
+    .subtitle Obinna (Obi Knows)
+    
+  .main-block.concise
+    h2 #[i.fa.fa-graduation-cap] Education
+    
+    +item("Columbia University in the City of New York", "Harlem", "New York, NY", "2017", "2013")
+      .concise
+        :markdown-it
+          B.S. in Computer Engineering
 
   .main-block
     h2 #[i.fa.fa-suitcase] Experience
     
+    +item("Distributed Systems Engineer", "LaunchDarkly", "Oakland, CA", "2019")
+      :markdown-it
+        - Worked to help maintain microservice architecture, build out APIs, and work on call for service health monitoring.
+        - Improved and built upon existing technologies used for internal reporting within the company.
+        - Proposed and Began to implement Chaos Engineering within company stack.
+
     +item("Development Lead", "Represent Development Agency", "Berkeley, CA", "2018")
       :markdown-it
         - Create, Design, and Deliver projects for clients in a timely manner, in addition to pro-bono projects.
@@ -26,11 +40,6 @@ include obis-cv-mixins.pug
         - Harvest & Deliver hundreds of pounds of Kale, Tomatoes, and Seasonal Produce
         - Maintain and Implement Organic Farming Practices
         
-    +item("Production Technician", "Advanced Metal Finishing", "Roseville, CA", "2017")
-      :markdown-it
-        - Worked with Quality Control to ensure the factory’s compliance with Federal Aviation guidelines.
-        - Quality Assured, packaged, and distribute thousands of SpaceX parts for distribution all across Northern California.
-        
     +item("Web Developer", "LawTrades", "New York, NY", "2016", "2015")
       :markdown-it
         - Worked directly with CEO to develop web designs and create company website pages to drive in more online traffic. (Designs featured on ProductHunt.com)
@@ -39,9 +48,10 @@ include obis-cv-mixins.pug
   .main-block
     h2 #[i.fa.fa-folder-open] Selected Projects 
         
-    +item("Sievent 2.0", "Sievent LLC", "Sacramento, CA", "2018")
+    +item("Chumz", "Chumz LLC", "Nashville, Tennesee", "2019")
       :markdown-it
-        - Designed a new service oriented platform architecture using Docker     
+        - Redesign mobile app UI/UX with CEO a new service oriented platform architecture using Docker     
+        - Created a new service oriented architecture using Kubernetes, Hasura Engine
         - Moved company towards polyglotism to increase developer talent pool.
         
     +item("Field Study Abroad IX", "Sapienza University", "Honduras, Nicaragua, Costa Rica", "2017")
@@ -61,13 +71,7 @@ include obis-cv-mixins.pug
         - Learned Arudino, and wired the garden's lighting and watering to be fully automated
         - Presented idea to Congressmen Ami Bera to acquire more funding for the school program
   
-  .main-block.concise
-    h2 #[i.fa.fa-graduation-cap] Education
-    
-    +item("Columbia University in the City of New York", "Harlem", "New York, NY", "2017", "2013")
-      .concise
-        :markdown-it
-          B.S. in Computer Engineering
+
       
     
     
@@ -78,7 +82,7 @@ include obis-cv-mixins.pug
     ul
       li #[i.fa.fa-envelope] obiknows88@gmail.com
       li #[i.fa.fa-phone] +1 916.969.7723
-      li #[i.fa.fa-globe]  obi.obiknows.co
+      li #[i.fa.fa-globe]  https://itsobinna.com
       li #[i.fa.fa-github]  obiknows
       
   #skills.side-block
@@ -93,31 +97,30 @@ include obis-cv-mixins.pug
       li Site Reliability Engineering
     h4 Languages
     ul
+      li Golang
       li Javascript
       li Python
-      li Golang
       li HTML/CSS
-      li PHP
+      li React
       li C/C++
-      li Haskell
+      li SQL / Mongo
     h4 Frameworks
     ul
       li Node.JS
-      li Meteor
-      li React / Vue
-      li React Native
       li Buffalo
-      li Joomla
+      li React Native
+      li Gastby
+      li React / Vue.Js
       li Django / Flask
-      li Wordpress
+      li Wordpress / Shopify
+      li Hasura Engine
     h4 Other Technologies
     ul
-      li AWS / GCE 
-      li Unix / Linux 
+      li AWS / Google Compute
+      li Linux / Unix
       li Kubernetes
+      li Docker / Docker Swarm
       li Rancher
-      li Istio
-      li Docker
       li Arduino / Raspberry Pi
       
       
